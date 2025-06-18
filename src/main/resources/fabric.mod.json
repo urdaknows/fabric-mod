@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "myclient",
+	"version": "${version}",
+	"name": "MyClient",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"urdaknows"
+	],
+	"contact": {
+		"homepage": "https://github.com/urdaknows"
+	},
+	"license": "MIT",
+	"icon": "assets/myclient/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.github.urdaknows.MyClient"
+		],
+		"client": [
+			"com.github.urdaknows.MyClientClient"
+		],
+		"fabric-datagen": [
+			"com.github.urdaknows.MyClientDataGenerator"
+		]
+	},
+	"mixins": [
+		"myclient.mixins.json",
+		{
+			"config": "myclient.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

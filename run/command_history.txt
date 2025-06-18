@@ -1,0 +1,2 @@
+/enchant @a minecraft:sharpness 5
+/enchant @a minecraft:sharpness 6
