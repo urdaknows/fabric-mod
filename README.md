@@ -17,7 +17,7 @@ Tired of double-tapping the forward key to sprint? This lightweight mod lets you
 ## 📦 Installation
 
 1. Make sure you have **Forge** or **Fabric** installed for Minecraft 1.21.4.
-2. Download the `.jar` file from the [Releases](./releases) section.
+2. Download the `.jar` file from the [Releases](https://github.com/urdaknows/fabric-mod/releases) section.
 3. Place the `.jar` file in your `mods` folder (`.minecraft/mods`).
 4. Launch the game and enjoy sprinting with ease!
 
